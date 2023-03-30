@@ -1,0 +1,65 @@
+#canvasId{
+    width: 270px;
+    border: none;
+    transition: all 0.30s ease;
+    box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+    background-color: var(--color-body-segundary);
+    padding: 8px;
+}
+#canvasId h4{
+ font-weight: 700;
+ text-align: center;
+}
+.content-profile {
+    width: 100%;
+    height: 200px;
+    border-top: 1.2px solid #04471C;
+    border-bottom: 1.2px solid  #04471C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-profile img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+.content-profile h5{
+    margin: 0;
+ color: var(--color-title);
+}
+.content-profile h6{
+ color: var(--color-subtitle);
+}
+.content-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-links a{
+   color: var(--color-title);
+   padding: 10px;
+   text-decoration: none;
+ border-radius: 8px;
+}
+.content-links a:hover{
+    background-color: #058C42;
+    color: white;
+    transition: all 0.25s ease;
+}
+.content-links a span:hover{
+    background-color: #058C42;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+.content-links a span{
+   font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: var(--color-title);
+ }
+.content-links p{
+ font-weight: 600;
+color: var( --color-subtitle);
+}

@@ -1,0 +1,23 @@
+#modalid .modal-header{
+    border-bottom: none;
+}
+#modalid .modal-footer{
+    border-top: none;
+}
+
+#buttomModal{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #058C42;
+    color: white;
+
+}
+#buttomEdit{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #058C421f;
+    color: #058C42;
+
+}
